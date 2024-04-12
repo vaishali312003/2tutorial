@@ -1,0 +1,14 @@
+{
+    "builds":[
+        {
+            "src"="2tutorial/main.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"2tutorial/main.py"
+        }
+    ]
+}
