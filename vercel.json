@@ -1,7 +1,7 @@
 {
     "builds":[
         {
-            "src"="2tutorial/main.py",
+            "src":"2tutorial/main.py",
             "use":"@vercel/python"
         }
     ],
